@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
+    <h2 class="mb-12 text-2xl text-center">{{location.name}}</h2>
+    {% if location.image %}
+        <img src="{{ location.image.url }}" class="rounded-xl h-64 w-72">
+    {% else %}  
+        <img src="/media/location_images/default/{{location.name}}.png" class="rounded-xl h-64 w-72"> 
+    {% endif %} 
+    <h2 class="mb-12 text-2xl text-center">{{location.description}}</h2>
+    <div class="grid grid-cols-4 gap-3 mt-10">
+        {% for hotel in hotels %}
+            <a href={% url "get_hotel_detials" hotel_name=hotel.name %} class="border-2 max-w-none">
+                <div class="p-6 bg-white rounded-b-xl max-w-xs h-full">
+                    {% if hotel.image %}
+                        <img src="{{ hotel.image.url }}" class="rounded-xl h-64 w-72">
+                    {% else %}  
+                        <img src="/media/hotel_images/default.png" class="rounded-xl h-64 w-72"> 
+                    {% endif %}           
+                    <h2 class="text-2xl">{{hotel.name}}</h2>
+                    <p class="text-gray-500">{{hotel.price}}</p>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
