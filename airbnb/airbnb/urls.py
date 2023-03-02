@@ -18,14 +18,17 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls.static import static
 
-from core.views import index, about_us, registor
-from hotel.views import get_location_detials, get_hotel_detials, get_location_detials_by_name
+from core.views import *
+from hotel.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
     path('about', about_us, name='about'),
     path('registor', registor, name='registor'),
+    path('login', login_handle, name='login_handle'),
+    path('logout', logout_view, name='logout_view'),
+    path('profile', profile, name='profile'),
     path('get_location_detials/<str:location_name>/', get_location_detials, name="get_location_detials"),
     path('get_location_detials/', get_location_detials_by_name, name="get_location_detials_name"),
     path('get_hotel_detials/<str:hotel_name>/', get_hotel_detials, name="get_hotel_detials")
