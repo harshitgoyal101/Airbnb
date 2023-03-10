@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Location(models.Model):
@@ -18,3 +19,7 @@ class Hotel(models.Model):
 
     def __str__(self):
         return self.name
+    
+class Booking(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    hotel = models.ForeignKey(Hotel, on_delete=models.CASCADE)
