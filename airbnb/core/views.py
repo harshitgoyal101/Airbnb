@@ -12,7 +12,7 @@ def index(request):
 def about_us(request):
     return render(request, "core/about.html")
 
-def registor(request, **kwargs):
+def register(request, **kwargs):
     if request.user.is_authenticated:
         return redirect('index') 
     if request.method == 'POST':
@@ -23,17 +23,17 @@ def registor(request, **kwargs):
         retry_password = data.get("retry_password")
         if password != retry_password:
             messages.error(request, 'password not match')
-            return redirect('registor') 
+            return redirect('register') 
         else:
             user = User.objects.filter(email=email)
             if user:
                 messages.error(request, 'email already registor')
-                return redirect('registor') 
+                return redirect('register') 
             user = User.objects.create(username=name, email=email)
             user.set_password(password)
             messages.success(request, 'user created')
             return redirect('index') 
-    return render(request, "core/registor.html")
+    return render(request, "core/register.html")
 
 
 def login_handle(request, **kwargs):
@@ -62,5 +62,6 @@ def profile(request):
     if not request.user.is_authenticated:
         return redirect('index') 
     context = {
+        "user": request.user
     }
     return render(request, "core/profile.html", context=context)

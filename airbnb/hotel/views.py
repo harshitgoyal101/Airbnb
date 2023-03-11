@@ -27,7 +27,7 @@ def get_hotel_detials(request, hotel_name):
     location_name = hotel.location.name
     related_hotels = Hotel.objects.filter(location__name=location_name).exclude(name__iexact=hotel_name)
     context = {
-        "hotel_name": hotel_name,
+        "hotel": hotel,
         "location_name": location_name,
         "hotels": related_hotels
     }

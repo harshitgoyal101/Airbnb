@@ -1,25 +1,32 @@
 {% extends 'core/base.html' %}
 {% block content %}
-<div class="container grid grid-cols-2 gap-3 p-6">
-  <form class="form-horizontal" action="/action_page.php">
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="email">Email:</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" name="Email" value={{request.user.email}} disabled>
+<div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
+  <div class="mt-6 px-6 py-12 bg-slate-500  rounded-xl">
+      <div class="grid grid-cols-3 gap-3">
+          <div class="bg-white p-3 rounded-2xl w-full mt-9" style="height: 20rem;">    
+            <img src="/media/profile_default.png" class="rounded-xl w-96 h-72"> 
+          </div>
+          <div class="p-6 text-white col-span-2">
+              <h1 class="h1 mx-1 text-white text-4xl">{{user.username|title}}</h1>
+              <div class="mx-1 h3">{{user.email}}</div>
+              <form class="mx-1 mt-4 text-gray-500 " method="post">
+                {% csrf_token %}
+                <div class="bg-gray-100 py-8 px-16 rounded-2xl">
+                  <div class="">
+                    <div class=" grid grid-cols-3 flex-fill">
+                      <label class="font-semibold text-gray-500 p-2 rounded-2xl" for="bio">Bio</label>
+                      <textarea name="bio" id="bio" class="rounded-xl p-4 my-2 border-2 col-span-2 h-32" style="resize: none;"></textarea>
+                    </div>
+                    <div class=" grid grid-cols-3 flex-fill">
+                      <label class="font-semibold text-gray-500 p-2 rounded-2xl" for="bio">Profile pic</label>
+                      <input type="file" alt="Submit" name="bio" id="bio"/>
+                      <button type='submit' class="mx-3 px-4 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700"> Update </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+          </div>
       </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="name">User name:</label>
-      <div class="col-sm-10">          
-        <input type="text" class="form-control" name="name" value={{request.user.username}}>
-      </div>
-    </div>
-    <div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-outline-primary m-2" disabled>Update</button>
-      </div>
-    </div>
-  </form>
+  </div>
 </div>
 {% endblock%}
-
