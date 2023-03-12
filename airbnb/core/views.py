@@ -3,6 +3,8 @@ from hotel.models import Location
 from django.contrib import messages
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
+from .models import UserProfile
+from django.core.files.storage import FileSystemStorage
 
 # Create your views here.
 def index(request):
@@ -61,7 +63,22 @@ def logout_view(request):
 def profile(request):
     if not request.user.is_authenticated:
         return redirect('index') 
+    profile = UserProfile.objects.get(user=request.user)
+    if request.method == 'POST':
+        bio = request.POST['bio']
+        profile.description = bio
+        if request.FILES:
+            profile_pic = request.FILES['name']
+            print(profile_pic)
+            fs = FileSystemStorage()
+            filename = fs.save(profile_pic.name.replace(" ","_"), profile_pic)
+            uploaded_file_url = fs.url(filename)
+            profile.image = uploaded_file_url.replace("/media/","")
+            print(uploaded_file_url)
+        profile.save()
+        return redirect('profile')
     context = {
-        "user": request.user
+        "user": request.user,
+        "profile": profile
     }
     return render(request, "core/profile.html", context=context)

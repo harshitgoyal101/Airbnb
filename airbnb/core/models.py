@@ -5,4 +5,4 @@ from django.contrib.auth.models import User
 class UserProfile(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)  
     description = models.TextField()
-    image = models.ImageField(upload_to="location_images", blank=True, null=True)
+    image = models.ImageField( blank=True, null=True)
