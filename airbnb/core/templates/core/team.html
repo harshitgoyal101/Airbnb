@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+
+
+{% block content %}
+<div class="mt-6 px-6 py-12 bg-slate-500  rounded-xl">
+    <h1 class="h1 mb-4 text-center text-white text-4xl">Our Team</h1>
+    <div class="grid grid-cols-3 bg-white p-5 rounded-2xl">
+        {% for profile in profiles %}
+            <div class="max-w-xs rounded-2xl m-3">
+                <div class="p-3 bg-gray-300 transition duration-500 hover:bg-slate-500 hover:text-white rounded-b-xl max-w-xs h-full rounded-2xl">    
+                {% if profile.image %}
+                    <img src="{{ profile.image.url }}" class="rounded-xl w-96 h-72">
+                {% else %}  
+                    <img src="/media/profile_default.png" class="rounded-xl w-96 h-72"> 
+                {% endif %}  
+                <div class="h5 m-2 text-center">{{profile.username}}</div>
+                <div class="h5 m-2 text-center">{{profile.bio}}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

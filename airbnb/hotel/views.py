@@ -32,3 +32,4 @@ def get_hotel_detials(request, hotel_name):
         "hotels": related_hotels
     }
     return render(request, "hotel/hotel_details.html", context=context)
+

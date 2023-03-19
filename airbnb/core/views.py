@@ -14,6 +14,19 @@ def index(request):
 def about_us(request):
     return render(request, "core/about.html")
 
+def team(request):
+    profiles = []
+    for user in User.objects.all():
+        profile = UserProfile.objects.get(user=user)
+        url = profile.image.url if profile.image else None
+        profiles.append({
+            "username": user.username,
+            "image": profile.image,
+            "url": url,
+            "bio": profile.description
+        })
+    return render(request, "core/team.html", context={"profiles": profiles})
+
 def register(request, **kwargs):
     if request.user.is_authenticated:
         return redirect('index') 

@@ -1,0 +1,1162 @@
+[
+    {
+       "mumbai":[
+          {
+             "name":"Dido",
+             "rating":"4.73",
+             "reviews":"59",
+             "location":"Mumbai, Maharashtra, India",
+             "host":"Team",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Sea face juhu beach cozy 1bhk",
+             "rating":"4.5",
+             "location":"Mumbai, Maharashtra, India",
+             "host":"Mohammad",
+             "guests":"4",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1.5"
+          },
+          {
+             "name":"HS1- premium city view room",
+             "rating":"5.0",
+             "reviews":"7",
+             "location":"Mumbai, Maharashtra, India",
+             "host":"Rohit",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1.5"
+          }
+       ]
+    },
+    {
+       "jaipur":[
+          {
+             "name":"Country Home - Hill Views",
+             "rating":"4.86",
+             "reviews":"8",
+             "location":"Jaipur, Rajasthan, India",
+             "host":"Sanjay",
+             "guests":"8",
+             "bedrooms":"4",
+             "beds":"4",
+             "bathrooms":"6"
+          },
+          {
+             "name":"Farm House Jaipur 40 km on Agra Road",
+             "rating":"5.0",
+             "reviews":"28",
+             "location":"Jaipur, Rajasthan, India",
+             "host":"Alok",
+             "guests":"8",
+             "bedrooms":"2",
+             "beds":"4",
+             "bathrooms":"2"
+          }
+       ]
+    },
+    {
+       "chandigarh":[
+          {
+             "name":"5 Star with an access to Golf Course",
+             "rating":"4.67",
+             "reviews":"3",
+             "location":"Sahibzada Ajit Singh Nagar, Punjab, India",
+             "host":"Mandeep",
+             "guests":"6",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"4.5"
+          },
+          {
+             "name":"2 room suite on 2nd floor surrounded by trees",
+             "rating":"4.58",
+             "reviews":"24",
+             "location":"Chandigarh, India",
+             "host":"Sukhmani",
+             "guests":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "srinagar":[
+          {
+             "title":"One bedroom in Heritage Colonial Bungalow",
+             "rating":"4.33",
+             "reviews":"18",
+             "host":"Zubair",
+             "room_type":"Private room in bed and breakfast",
+             "capacity":"3",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "title":"The Khanda Kothi, a Heritage House in Srinagar",
+             "rating":"4.89",
+             "reviews":"9",
+             "host":"Prashant",
+             "room_type":"Entire bungalow",
+             "capacity":"10",
+             "bedrooms":"4",
+             "beds":"6",
+             "bathrooms":"4.5"
+          }
+       ]
+    },
+    {
+       "kolkata":[
+          {
+             "title":"Luxurious Xanadu Studio Apt-701 Near Airport n CC2",
+             "rating":"4.80",
+             "reviews":"10",
+             "host":"Ronit",
+             "room_type":"Entire rental unit",
+             "capacity":"6",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1.5"
+          },
+          {
+             "title":"ANAND STAYS",
+             "rating":"5.0",
+             "reviews":"20",
+             "host":"Ashok",
+             "room_type":"Private room in home",
+             "capacity":"4",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "bangalore":[
+          {
+             "name":"RJs Luxury penthouse - stay-celebrate -relax",
+             "rating":"4.58",
+             "reviews":"104",
+             "location":"Bengaluru, KA, India",
+             "host":"Amit",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"3"
+          },
+          {
+             "name":"The Bosque House",
+             "rating":"",
+             "reviews":"1",
+             "location":"Bengaluru, Karnataka, India",
+             "host":"Suhas",
+             "guests":"2",
+             "bedrooms":"3",
+             "beds":"5",
+             "bathrooms":"3.5"
+          },
+          {
+             "name":"Prakruti Farms - Hornbill - A nature retreat",
+             "rating":"4.82",
+             "reviews":"17",
+             "location":"Bengaluru, Karnataka, India",
+             "host":"Raja",
+             "guests":"4",
+             "bedrooms":"",
+             "beds":"3",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Zen Bungalow (Private Queen Bedroom & Patio)",
+             "rating":"4.71",
+             "reviews":"28",
+             "location":"Bengaluru, Karnataka, India",
+             "host":"Vartika",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "hyderabad":[
+          {
+             "name":"Regalia-Wooden cottage with Private Pool",
+             "rating":"4.94",
+             "reviews":"17",
+             "location":"Kanakamamidi, Telangana, India",
+             "host":"Prashanth",
+             "guests":"10",
+             "bedrooms":"2",
+             "beds":"4",
+             "bathrooms":"2"
+          },
+          {
+             "name":"R R Next hosted by rizwan 2-BHK with parking",
+             "rating":"5.0",
+             "reviews":"15",
+             "location":"Hyderabad, Telangana, India",
+             "host":"Mohd",
+             "guests":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Mangowoods Serenity",
+             "rating":"4.86",
+             "reviews":"58",
+             "location":"Kanakamamidi, Telangana, India",
+             "host":"Pavan Kumar Reddy",
+             "guests":"15",
+             "bedrooms":"2",
+             "beds":"7",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Lavish 4 BHK duplex",
+             "rating":"",
+             "reviews":"2",
+             "location":"Hyderabad, Telangana, India",
+             "host":"Pavan Chowdary",
+             "guests":"10",
+             "bedrooms":"4",
+             "beds":"4",
+             "bathrooms":"3"
+          },
+          {
+             "name":"5 Star residential's for Festivity - Madhapur",
+             "rating":"4.92",
+             "reviews":"136",
+             "location":"Hyderabad, Telangana, India",
+             "host":"Naveen",
+             "guests":"10",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"4"
+          }
+       ]
+    },
+    {
+       "Pondicherry":[
+          {
+             "name":"A Lotus Studio in Skandavan's garden, Edayanchavadi",
+             "rating":"4.82",
+             "reviews":"200",
+             "host":"Rekha",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Highfields Coorg",
+             "rating":"4.91",
+             "reviews":"44",
+             "host":"Bobby",
+             "guests":"8",
+             "bedrooms":"4",
+             "beds":"4",
+             "bathrooms":"4"
+          },
+          {
+             "name":"Baywatch by GRHA : A Picturesque Beach Villa",
+             "rating":"4.9",
+             "reviews":"20",
+             "host":"Roshan",
+             "guests":"15",
+             "bedrooms":"5",
+             "beds":"6",
+             "bathrooms":"5"
+          },
+          {
+             "name":"Tool House (3): Great Estate Stay for Remote Work",
+             "rating":"4.88",
+             "reviews":"49",
+             "host":"Raho",
+             "guests":"4",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "Panaji":[
+          {
+             "name":"A Lavish Sea View Apartment!!",
+             "rating":"4.83",
+             "reviews":"268",
+             "location":"Panaji, Goa, India",
+             "host":"Somin",
+             "capacity":"8 guests",
+             "bedrooms":"2",
+             "beds":"6",
+             "bathrooms":"3.5"
+          },
+          {
+             "name":"Luxury Sea View Apartment At Dona Paula!!",
+             "rating":"4.67",
+             "reviews":"201",
+             "location":"Panaji, Goa, India",
+             "host":"Somin",
+             "capacity":"5 guests",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"3"
+          },
+          {
+             "name":"Bed & Breakfast",
+             "rating":"4.92",
+             "reviews":"12",
+             "location":"Panaji, Goa, India",
+             "host":"Ddhyana",
+             "capacity":"2 guests",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1 private bathroom"
+          },
+          {
+             "name":"D'Costa Villa near Panaji-WFH with Hispd Broadband",
+             "rating":"4.70",
+             "reviews":"162",
+             "location":"Ribandar, Goa, India",
+             "host":"Adrian",
+             "capacity":"7 guests",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"3.5"
+          }
+       ]
+    },
+    {
+       "Delhi":[
+          {
+             "name":"A Beautiful 2 BHK Farm with Private Pool (Sanitised)",
+             "rating":"4.68",
+             "reviews":"22",
+             "location":"New Delhi, Delhi, India",
+             "host":"Khushi",
+             "capacity":"16+ guests",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "name":"StayVista at The Brick House 15 mins from Airport",
+             "location":"New Delhi, Delhi, India",
+             "host":"Jakee",
+             "capacity":"15 guests",
+             "bedrooms":"4",
+             "beds":"4",
+             "bathrooms":"4"
+          },
+          {
+             "name":"Dimple Villa Paradiso | Swimming Pool with 3 BHK",
+             "rating":"5.0",
+             "reviews":"6",
+             "location":"New Delhi, Delhi, India",
+             "host":"Siddhant",
+             "capacity":"12 guests",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"4.5"
+          },
+          {
+             "name":"The Terrace Penthouse, exclusive Lutyens Delhi",
+             "rating":"4.99",
+             "reviews":"147",
+             "location":"New Delhi, Delhi, India",
+             "host":"Viraj",
+             "capacity":"2 guests",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "gangtok":[
+          {
+             "name":"Rustic walnut cottage - waterfall & mountain view",
+             "rating":4.97,
+             "reviews":73,
+             "location":"Gangtok, Sikkim, India",
+             "room_type":"Private room in farm stay",
+             "host":"Deep And Priya",
+             "accommodates":2,
+             "bedrooms":1,
+             "beds":1,
+             "bathrooms":1,
+             "description":"Private room in farm stay hosted by Deep And Priya"
+          },
+          {
+             "name":"Chestnut duplex suite room with mountain view",
+             "rating":5,
+             "reviews":18,
+             "location":"Gangtok, Sikkim, India",
+             "room_type":"Private room in farm stay",
+             "host":"Deep And Priya",
+             "accommodates":2,
+             "bedrooms":1,
+             "beds":3,
+             "bathrooms":1,
+             "description":"Private room in farm stay hosted by Deep And Priya"
+          },
+          {
+             "name":"Cheerful 5 bedroom Villa with pool!",
+             "rating":4.8,
+             "reviews":5,
+             "location":"Gangtok, Sikkim, India",
+             "room_type":"Entire villa",
+             "host":"Prashant",
+             "accommodates":10,
+             "bedrooms":5,
+             "beds":9,
+             "bathrooms":5.5,
+             "description":"Entire villa hosted by Prashant"
+          },
+          {
+             "name":"Malinggo Homestay- keep Cottage",
+             "rating":5,
+             "reviews":4,
+             "location":"Gangtok, Sikkim, India",
+             "room_type":"Private room in bed and breakfast",
+             "host":"Daniel",
+             "accommodates":"2",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1",
+             "description":"Private room in bed and breakfast hosted by Daniel"
+          },
+          {
+             "name":"Soenam la Homestay ll",
+             "rating":"4",
+             "reviews":"12",
+             "location":"Gangtok, Sikkim, India",
+             "room_type":"Entire place",
+             "host":"Soenam La",
+             "accommodates":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2",
+             "description":"Entire place hosted by Soenam La"
+          }
+       ]
+    },
+    {
+       "varanasi":[
+          {
+             "name":"Ideal Luxury Homestay (1BHK) fully furnished",
+             "rating":"5.0",
+             "reviews":"10",
+             "location":"Varanasi, Uttar Pradesh, India",
+             "host":"Vishrut",
+             "accommodation_type":"Entire apartment",
+             "guests":"4",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Penthouse Benares | Home · Garden · Terrace",
+             "rating":"4.86",
+             "reviews":"37",
+             "location":"Varanasi, Uttar Pradesh, India",
+             "host":"Sahej",
+             "accommodation_type":"Entire home",
+             "guests":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Nawab Ki Deohri 1 - Boutique Heritage Homestay",
+             "rating":"4.65",
+             "reviews":"26",
+             "location":"Varanasi, UP, India",
+             "host":"Mehdi",
+             "accommodation_type":"Private room in villa",
+             "guests":"6",
+             "bedrooms":"2",
+             "beds":"4",
+             "bathrooms":"2"
+          }
+       ]
+    },
+    {
+       "shillong":[
+          {
+             "name":"The Garden - Langkyrding, Golf Links ( House)",
+             "rating":"4.97",
+             "reviews":"154",
+             "location":"Shillong, Meghalaya, India",
+             "host":"Ibamary",
+             "guests":"5",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Me La Ai BnB- Your Home in the Hills of Shillong",
+             "rating":"4.88",
+             "reviews":"24",
+             "location":"Shillong, Meghalaya, India",
+             "host":"Joy",
+             "guests":"7",
+             "bedrooms":"3",
+             "beds":"4",
+             "bathrooms":"3.5"
+          },
+          {
+             "name":"A Vintage Independent House",
+             "rating":"5.0",
+             "reviews":"7",
+             "location":"Shillong, Meghalaya, India",
+             "host":"Emica",
+             "guests":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Living Roof - Deluxe Cozy room with a view",
+             "rating":"3.67",
+             "reviews":"3",
+             "location":"Shillong, Meghalaya, India",
+             "host":"Living Roof",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"La Serene East point 105",
+             "rating":"3.4",
+             "reviews":"2",
+             "superhost":false,
+             "location":"Shillong, Meghalaya, India",
+             "host":"Martina",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1.5"
+          }
+       ]
+    },
+    {
+       "kochi":[
+          {
+             "name":"Secret Escape Boutique Holiday Home",
+             "rating":"4.68",
+             "reviews":"50",
+             "location":"Kochi, Kerala, India",
+             "host":"Mid",
+             "guests":"6",
+             "bedrooms":"2",
+             "beds":"3",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Theeraa Beach Villa in Cherai",
+             "rating":"5.0",
+             "reviews":"14",
+             "location":"Kochi, Kerala, India",
+             "host":"Priyanka",
+             "guests":"8",
+             "bedrooms":"3",
+             "beds":"6",
+             "bathrooms":"3.5"
+          },
+          {
+             "name":"Woodhive Villa Cochin",
+             "rating":"4.81",
+             "reviews":"21",
+             "location":"Kochi, Kerala, India",
+             "host":"Thom",
+             "guests":"6",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Best Sea view Serviced Apartment at Marine Drive",
+             "rating":"4.15",
+             "reviews":"13",
+             "location":"Kochi, Kerala, India",
+             "host":"Best Serviced Apartments",
+             "guests":"6",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"3"
+          },
+          {
+             "name":"Bernard Riverside Apartment - 1st floor",
+             "rating":"4.85",
+             "reviews":"65",
+             "location":"Kochi, Kerala, India",
+             "host":"Lucy",
+             "guests":"4",
+             "bedrooms":"2",
+             "beds":"4",
+             "bathrooms":"2"
+          }
+       ]
+    },
+    {
+       "mussoorie":[
+          {
+             "name":"Brisa 19 - Discover Nature and Yourself",
+             "rating":"4.90",
+             "reviews":"41",
+             "location":"Mussoorie, Uttarakhand, India",
+             "host":"Nupur",
+             "guests":"5",
+             "bedrooms":"2",
+             "beds":"3",
+             "bathrooms":"3"
+          },
+          {
+             "name":"Herne Lodge 1 - A mountain home away from home!",
+             "rating":"4.94",
+             "reviews":"67",
+             "location":"Mussoorie, Uttarakhand, India",
+             "host":"Sanjiv",
+             "guests":"3",
+             "bedrooms":"2",
+             "beds":"3",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "mysore":[
+          {
+             "name":"ROOFTOP RETREAT- fully furnished 1 bhk house",
+             "rating":"4.95",
+             "reviews":"145",
+             "location":"Mysore, Karnataka, India",
+             "host":"Nivya",
+             "guests":"4",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"The Thota",
+             "rating":"4.67",
+             "reviews":"42",
+             "location":"Mysore, Karnataka, India",
+             "host":"Anju",
+             "guests":"3",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"LIVAA NEST VILLA",
+             "rating":"4.24",
+             "reviews":"21",
+             "location":"Mysore, Karnataka, India",
+             "host":"Bindhu",
+             "guests":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Rustling Bamboo Cottage - A Quiet Rural Vacation",
+             "rating":"4.8",
+             "reviews":"66",
+             "location":"Mysore, Karnataka, India",
+             "host":"Aishwarya",
+             "guests":"8",
+             "bedrooms":"2",
+             "beds":"4",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Urban 1 Bhk Luxury Apartment with Hall Cum Kitchen",
+             "rating":"4.75",
+             "reviews":"4",
+             "location":"Mysore, Karnataka, India",
+             "host":"Sameer",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "nainital":[
+          {
+             "name":"Garden Hut",
+             "rating":"4.97",
+             "reviews":"35",
+             "location":"Nainital, Uttarakhand, India",
+             "room_type":"Private room",
+             "host":"Sarthak",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"FernCottageTennisCourt-Secluded-wifi-kitche,b'fast",
+             "rating":"4.48",
+             "reviews":"52",
+             "location":"Nainital, Uttarakhand, India",
+             "room_type":"Entire cottage",
+             "host":"Devneet",
+             "guests":"7",
+             "bedrooms":"2",
+             "beds":"3",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Villa Bliss | Lake view | Near mall road",
+             "rating":"4.9",
+             "reviews":"10",
+             "location":"Nainital, Uttarakhand, India",
+             "room_type":"Entire place",
+             "host":"Jai",
+             "guests":"6",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          }
+       ]
+    },
+    {
+       "shimla":[
+          {
+             "name":"Cedar View Home- 2BHK Claridge's Residency",
+             "rating":"4.53",
+             "reviews":"125",
+             "location":"Shimla, Himachal Pradesh, India",
+             "host":"Ravi",
+             "guests":"5",
+             "bedrooms":"2",
+             "beds":"3",
+             "bathrooms":"2"
+          },
+          {
+             "name":"The Conifer (Premium Private Villa)",
+             "rating":"4.94",
+             "reviews":"36",
+             "location":"Shimla, Himachal Pradesh, India",
+             "host":"Superhost",
+             "guests":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Jimmy Homes-ValleyView+Superhost7yrs+CookAvailable",
+             "rating":"4.86",
+             "reviews":"21",
+             "location":"Shimla, Himachal Pradesh, India",
+             "host":"Superhost",
+             "guests":"6",
+             "bedrooms":"2",
+             "beds":"6",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Salubrity Residences Himachal",
+             "rating":"4.94",
+             "reviews":"98",
+             "location":"Shimla, Himachal Pradesh, India",
+             "host":"Superhost",
+             "guests":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Magical Victorian, Shimla",
+             "rating":"4.90",
+             "reviews":"40",
+             "location":"Shimla, Himachal Pradesh, India",
+             "host":"Superhost",
+             "guests":"10",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"3"
+          }
+       ]
+    },
+    {
+       "ladakh":[
+          {
+             "name":"Primrose Cottage",
+             "type":"Villa w Garden",
+             "rating":"5.0",
+             "reviews":"5",
+             "location":"Leh, India",
+             "host":"Roam Home",
+             "guests":"3",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Gutur House Hostel and Co-Living",
+             "type":"Private room in hostel",
+             "rating":"5.0",
+             "reviews":"3",
+             "location":"Leh, India",
+             "host":"Sunil",
+             "guests":"16",
+             "bedrooms":"7",
+             "beds":"55"
+          }
+       ]
+    },
+    {
+       "bhubaneswar":[
+          {
+             "title":"Entire 3-bedroom Modular Flat, with all amenities",
+             "rating":"4.85",
+             "reviews":"52",
+             "location":"Bhubaneswar, Odisha, India",
+             "type":"Entire serviced apartment",
+             "hosted_by":"Manita",
+             "guests":"8",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"3"
+          },
+          {
+             "title":"Kuakhai -Ground floor garden view double bedroom",
+             "rating":"4.67",
+             "reviews":"9",
+             "location":"Bhubaneswar, Odisha, India",
+             "type":"Private room in villa",
+             "hosted_by":"Timir",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "agra":[
+          {
+             "name":"Luxurious Studio in DayalBagh Agra",
+             "rating":"5.0",
+             "reviews":"11",
+             "location":"Agra, Uttar Pradesh, India",
+             "host":"Param",
+             "capacity":"4",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"2.5"
+          },
+          {
+             "name":"Clean and Comfy Home stay near Taj Mahal",
+             "rating":"4.52",
+             "reviews":"122",
+             "location":"Agra, Uttar Pradesh, India",
+             "host":"Shailesh",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Cosy Homestay(Coral Tree) Near Taj Mahal",
+             "rating":"4.82",
+             "reviews":"94",
+             "location":"Agra, Uttar Pradesh, India",
+             "host":"Gopal",
+             "capacity":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Live near The Taj Mahal",
+             "rating":"4.96",
+             "reviews":"57",
+             "location":"Agra, Uttar Pradesh, India",
+             "host":"Suraj And Beena",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Clean+Modern+Traditional Indian Flat_ Near Taj",
+             "rating":"4.0",
+             "reviews":"2",
+             "location":"Agra, Uttar Pradesh, India",
+             "host":"Gagandeep",
+             "capacity":"9",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"3"
+          }
+       ]
+    },
+    {
+       "udaipur":[
+          {
+             "name":"De Bougainvilla near Lake Fatehsagar – 2 mins walk",
+             "rating":"4.81",
+             "reviews":"108",
+             "location":"Udaipur, Rajasthan, India",
+             "host":"Suman",
+             "guests":"6",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2.5"
+          },
+          {
+             "name":"David's Bungalow - Experience Art",
+             "rating":"4.99",
+             "reviews":"159",
+             "location":"Udaipur, Rajasthan, India",
+             "host":"Samir Samuel",
+             "guests":"3",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1.5"
+          }
+       ]
+    },
+    {
+       "dehradun":[
+          {
+             "name":"Brook and Woods Homestay",
+             "rating":"4.8",
+             "reviews":"5",
+             "location":"Dehradun, Uttarakhand, India",
+             "host":"Sujata",
+             "capacity":"4",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Sunrise Inlet- 2BR Urban Setup near mountains",
+             "rating":4.9,
+             "reviews":30,
+             "location":"Dehradun, Uttarakhand, India",
+             "host":"Shrey",
+             "capacity":4,
+             "bedrooms":2,
+             "beds":2,
+             "bathrooms":2
+          },
+          {
+             "name":"Bumble Bee",
+             "rating":"4.87",
+             "reviews":"31",
+             "location":"Dehradun, Uttarakhand, India",
+             "host":"Sakshi",
+             "capacity":"4",
+             "bedrooms":"1",
+             "beds":"3",
+             "bathrooms":"2"
+          },
+          {
+             "name":"Charming 1 Bedroom with private sitting area",
+             "rating":"4.97",
+             "reviews":"37",
+             "location":"Dehradun, Uttarakhand, India",
+             "host":"Dhruv",
+             "capacity":"2",
+             "bedrooms":"2",
+             "beds":"3",
+             "bathrooms":"1"
+          }
+       ]
+    },
+    {
+       "visakhapatnam":[
+          {
+             "title":"Visakhapatnam Fully Furnished 2BHK Walking distance from beach",
+             "rating":"4.94",
+             "reviews":"48",
+             "location":"Visakhapatnam, Andhra Pradesh, India",
+             "host":"Raghav",
+             "guests":"6",
+             "bedrooms":"2",
+             "beds":"3",
+             "bathrooms":"2"
+          },
+          {
+             "title":"Visakhapatnam FEEL LIKE HOME 2BHK",
+             "rating":"4.17",
+             "reviews":"18",
+             "location":"Visakhapatnam, Andhra Pradesh, India",
+             "host":"Ravi",
+             "guests":"6",
+             "bedrooms":"2",
+             "beds":"2",
+             "bathrooms":"2"
+          },
+          {
+             "title":"Visakhapatnam Beach view 3 bedroom apartment between two hills",
+             "raring":"5.0",
+             "reviews":"7",
+             "location":"Visakhapatnam, Andhra Pradesh, India",
+             "host":"Satyavati",
+             "guests":"6",
+             "bedrooms":"3",
+             "beds":"3",
+             "bathrooms":"3"
+          }
+       ]
+    },
+    {
+       "guwahati":[
+          {
+             "name":"Miran Terrace- studio apartment with garden",
+             "rating":"4.96",
+             "reviews":"80",
+             "location":"Guwahati, Assam, India",
+             "host":"Nabajyoti",
+             "guests":"3",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Luxe homestay 1bhk luxury stay in central guwahati",
+             "rating":"4.91",
+             "reviews":"22",
+             "location":"Guwahati, Assam, India",
+             "host":"Jakiyyah",
+             "guests":"4",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1"
+          },
+          {
+             "name":"Retreat - Garden view room, well located bungalow",
+             "rating":"4.95",
+             "reviews":"121",
+             "location":"Guwahati, Assam, India",
+             "host":"Subrata",
+             "guests":"2",
+             "bedrooms":"1",
+             "beds":"1",
+             "bathrooms":"1",
+             "room_type":"private"
+          }
+       ]
+    },
+    {
+       "darjeeling":[
+          {
+             "name":"Darjeeling Mountain lore Urban Homestay (Bakshila)",
+             "rating":4.89,
+             "reviews":82,
+             "location":"Darjeeling, West Bengal, India",
+             "property_type":"Entire cottage",
+             "host_name":"Pranim",
+             "guests":5,
+             "bedrooms":3,
+             "beds":4,
+             "bathrooms":2
+          },
+          {
+             "name":"Yuma D Homestay",
+             "rating":5,
+             "reviews":10,
+             "location":"Darjeeling, West Bengal, India",
+             "property_type":"Private room in bungalow",
+             "host":"Sushma",
+             "guests":2,
+             "bedrooms":1,
+             "beds":1,
+             "bathrooms":1
+          },
+          {
+             "name":"Sumnima Homestays Experience Regency at Home.",
+             "rating":5,
+             "reviews":8,
+             "location":"Darjeeling, West Bengal, India",
+             "property_type":"Entire holiday home",
+             "host":"Rohan",
+             "guests":6,
+             "bedrooms":3,
+             "beds":3,
+             "bathrooms":1
+          },
+          {
+             "name":"Nagbeli BnB",
+             "rating":5,
+             "reviews":4,
+             "location":"Darjeeling, West Bengal, India",
+             "property_type":"Private room in home",
+             "host":"Rinchen",
+             "guests":8,
+             "bedrooms":3,
+             "beds":6,
+             "bathrooms":3.5
+          },
+          {
+             "name":"Alstroemeria Farmstay.For the love of nature",
+             "rating":"4.62",
+             "reviews":"21",
+             "location":"Darjeeling, West Bengal, India",
+             "property_type":"Farm stay",
+             "host":"Dhiraj",
+             "guests":"3",
+             "bedrooms":"2",
+             "beds":"1",
+             "bathrooms":"1.5"
+          }
+       ]
+    },
+    {
+       "chennai":[
+          {
+             "title":"Private room in home hosted by Meenakshi",
+             "location":"Chennai, Tamil Nadu, India",
+             "rating":"4.51",
+             "reviews":"212",
+             "property_type":"Private room",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1",
+             "amenities":[
+                "Ideal location near beach",
+                "Luxurious"
+             ],
+             "host":"Meenakshi",
+             "max_guests":"2"
+          },
+          {
+             "title":"Entire apartment hosted by Perlita",
+             "location":"Chennai, Tamil Nadu, India",
+             "rating":"4.89",
+             "reviews":"62",
+             "property_type":"Entire apartment",
+             "bedrooms":"1",
+             "beds":"2",
+             "bathrooms":"1",
+             "amenities":[
+                "Luxury 1BHK Flat",
+                "Superbly furnished"
+             ],
+             "host":"Perlita",
+             "max_guests":"4"
+          }
+       ]
+    }
+ ]
